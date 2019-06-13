@@ -1,5 +1,9 @@
 # vim-configs
+-------
+
 ## vimrc and plugins
+
+
 
 ## HTML
 <img src="images/f4.png" width=1000px>
@@ -16,6 +20,8 @@ After the basic config, then add the my_configs.vim file to the ~/.vim_runtime d
 
 Add the replace the directory ~/.vim_runtime/my_plugins with my_plugins in this repo.
 
+-----------
+
 # Included Plugins in this repo 
 
 1. vim - dracula colour scheme
@@ -24,5 +30,5 @@ Add the replace the directory ~/.vim_runtime/my_plugins with my_plugins in this 
 4. Vundle - Plugin manager
 
 
-fonts should be added separatively see https://github.com/ask1234560/fantasque-sans for installation
+### fonts should be added separatively see https://github.com/ask1234560/fantasque-sans for installation
 
