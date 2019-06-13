@@ -24,3 +24,5 @@ Add the replace the directory ~/.vim_runtime/my_plugins with my_plugins in this 
 4. Vundle - Plugin manager
 
 
+fonts should be added separatively see https://github.com/ask1234560/fantasque-sans for installation
+
