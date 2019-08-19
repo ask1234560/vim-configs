@@ -3,7 +3,7 @@
 " let g:gruvbox_italic=1
 
 if has('gui_running')
- set guifont=Fantasque\ Sans\ Mono\ Bold\ 19
+ set guifont=Fantasque\ Sans\ Mono\ Bold\ 13
 endif
 
 
@@ -12,7 +12,9 @@ colorscheme gruvbox
 
 set number
 
-autocmd vimenter * NERDTree
+" Turn nerd tree off
+
+" autocmd vimenter * NERDTree
 
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -82,8 +84,23 @@ let g:ycm_global_ycm_extra_conf = '/home/ananthu/.vim/bundle/YouCompleteMe/.ycm_
 " :let @/=""
 
 
-set guicursor=n-v-ic:lCursor
+" set guicursor=n-v-ic:lCursor
+
+set relativenumber 
+
+:let g:NERDTreeShowLineNumbers=1
 
 
 
+:autocmd BufEnter NERD_* setlocal rnu
 
+set path+=**
+
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+if has("gui_running")
+  " GUI is running or is about to start.
+  " Maximize gvim window (for an alternative on Windows, see simalt below).
+  set lines=999 columns=999
+endif
