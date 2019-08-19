@@ -18,7 +18,7 @@ This repo provides extra features for vim.For the base vimrc configs go to https
 
 After the basic config, then add the my_configs.vim file to the ~/.vim_runtime directory.
 
-Add the replace the directory ~/.vim_runtime/my_plugins with my_plugins in this repo.
+Replace the directory ~/.vim_runtime/my_plugins with my_plugins in this repo.
 
 -----------
 
